@@ -1,0 +1,107 @@
+/************* BASE STYLES *************/
+* { box-sizing: border-box; }
+body { font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.4; color: #364147; margin: 0; }
+input, button { font-family: inherit; font-size: inherit; }
+a { color: #faa541; text-decoration: none; }
+ul { padding: 0; margin: 0; list-style: none; }
+nav { padding: 10px 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+/***************************************/
+
+.navbar {
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+.iconBtn {
+    background-color: transparent;
+    border: none;
+}
+
+.iconBtn img {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.title {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;    
+}
+
+.dropdownMenu {
+    background-color: blue;
+    height: 100%;
+    width: 22%;
+    position: fixed;
+    top: 50px;
+    display: none;
+}
+
+.dropdownMenu ul li {
+    padding-left: 10px;
+    margin: 10px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.dropdownMenu a:link {
+    color: white;
+}
+
+.dropdownMenu a:visited {
+    color: white;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: -1;
+    margin: 0 auto;
+}
+
+.mainimg {
+    max-width: 1000px;
+}
+
+.maintxt {
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainbody {
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    /* top: 60px; */
+}
+
+.mainbodytxt {
+    text-align: left;
+    font-size: 30px;
+}
+
+.location {
+    font-size: 30px;
+    color: green;
+    text-decoration: underline;
+}
+
+.mainbody h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
